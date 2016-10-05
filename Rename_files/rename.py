@@ -8,7 +8,7 @@ def rename_file():
     list_of_files = os.listdir(r"/Users/nishantisme/Desktop/alphabet")
     # Print the names of all the files inside the specified directory
     print (list_of_files)
-    # Change the current working directory to the rename all the files.
+    # Change the current working directory to rename all the files.
     os.chdir(r"/Users/nishantisme/Desktop/alphabet")
 
 # Rename all files
