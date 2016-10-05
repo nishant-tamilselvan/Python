@@ -13,5 +13,8 @@ def rename_file():
 
 # Rename all files
     for name in list_of_files:
+        # will search and remove all the digits from the text
         os.rename(name, re.sub("[0-9](?!\d*$)", "", name))
+
+# calling the function rename_file()
 rename_file()
